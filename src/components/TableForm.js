@@ -83,7 +83,7 @@ export default function TableForm({
             name="description"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            placeholder="Description"
+            placeholder="Item Name"
             aria-label="First name"
           />
         </div>
@@ -103,7 +103,7 @@ export default function TableForm({
               <input
                 type="text"
                 className="form-control"
-                placeholder="Unit"
+                placeholder="Unit (e.g copies)"
                 value={unit}
                 onChange={(e) => setUnit(e.target.value)}
                 aria-label="Last name"
